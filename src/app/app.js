@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const dotenv = require("dotenv").config();
 const  connectDB = require('../config/database');
 const router = require('../routes/index');
 // Initialize Express
